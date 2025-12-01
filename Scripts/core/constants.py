@@ -27,6 +27,13 @@ def set_seed(seed=SEED):
 # Set seed on import
 set_seed()
 
-
+DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+BATCH_SIZE = 8
+NUM_WORKERS = 2
+PIN_MEMORY = True
+LEARNING_RATE = 1e-5
+NUM_EPOCHS = 7
+IMAGE_HEIGHT = 512
+IMAGE_WIDTH = 512
 PATCH_SIZE = 512
 STRIDE = 256

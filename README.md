@@ -64,7 +64,7 @@ python Scripts/feature_extraction/feature_extraction.py  # Extract features
 
 To reproduce results without training, download the pre-computed outputs:
 
-**[Download Pre-computed Outputs](https://github.com/yashas-hm-unc/AngioNet/releases/download/v1.0.0/precomputed_outputs.zip)**
+**[Download Pre-computed Outputs](https://github.com/yashas-hm/AngioNet/releases/download/v1.0.0/precomputed_outputs.zip)**
 
 The zip contains:
 

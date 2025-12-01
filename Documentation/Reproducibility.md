@@ -282,7 +282,7 @@ To enable reproduction without GPU or long training times, we provide pre-comput
 file:
 
 **Download URL
-**: [https://github.com/yashas-hm-unc/AngioNet/releases/download/v1.0.0/precomputed_outputs.zip](https://github.com/yashas-hm-unc/AngioNet/releases/download/v1.0.0/precomputed_outputs.zip)
+**: [https://github.com/yashas-hm/AngioNet/releases/download/v1.0.0/precomputed_outputs.zip](https://github.com/yashas-hm/AngioNet/releases/download/v1.0.0/precomputed_outputs.zip)
 
 ### 6.1 Trained Model
 
@@ -516,7 +516,7 @@ python Scripts/feature_extraction/feature_extraction.py  # Uses predictions
 
 - [x] Data published and downloadable ([Release on GitHub]())
 - [x] Models published and downloadable ([Release on GitHub]())
-- [x] Source code published and downloadable ([GitHub](https://github.com/yashas-hm-unc/AngioNet))
+- [x] Source code published and downloadable ([GitHub](https://github.com/yashas-hm/AngioNet))
 - [x] Dependencies set up in a single command ([setup_environment.py](../Runners/setup_environment.py))
 - [x] Key analysis details recorded ([Results.md](./Results.md))
 - [x] Analysis components set to deterministic ([set_seed](../Scripts/core/constants.py))

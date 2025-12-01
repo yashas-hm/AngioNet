@@ -3,7 +3,6 @@ import os
 import numpy as np
 from skimage import io, color, util
 
-
 try:
     # When imported from run_pipeline.py (from project root)
     from Scripts.core.utils import print_progress

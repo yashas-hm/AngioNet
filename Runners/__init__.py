@@ -1,3 +1,3 @@
-from .setup_environment import *
+from .oneclick import *
 from .run_pipeline import *
-from.oneclick import *
+from .setup_environment import *

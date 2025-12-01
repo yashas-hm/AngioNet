@@ -281,7 +281,8 @@ def create_patches(image, mask, patch_size, stride, output_path_image, output_pa
 To enable reproduction without GPU or long training times, we provide pre-computed outputs as a single downloadable zip
 file:
 
-**Download URL**: [https://github.com/yashas-hm-unc/AngioNet/releases/download/v1.0.0/precomputed_outputs.zip](https://github.com/yashas-hm-unc/AngioNet/releases/download/v1.0.0/precomputed_outputs.zip)
+**Download URL
+**: [https://github.com/yashas-hm-unc/AngioNet/releases/download/v1.0.0/precomputed_outputs.zip](https://github.com/yashas-hm-unc/AngioNet/releases/download/v1.0.0/precomputed_outputs.zip)
 
 ### 6.1 Trained Model
 
@@ -512,11 +513,12 @@ python Scripts/feature_extraction/feature_extraction.py  # Uses predictions
 | Platform Independence     | Works on Windows, macOS, and Linux                      |
 
 ## 12. Reproducibility Checkpoints
+
 - [x] Data published and downloadable ([Release on GitHub]())
 - [x] Models published and downloadable ([Release on GitHub]())
 - [x] Source code published and downloadable ([GitHub](https://github.com/yashas-hm-unc/AngioNet))
 - [x] Dependencies set up in a single command ([setup_environment.py](../Runners/setup_environment.py))
-- [x] Key analysis details recorded ([Results.md](./Results.md)) 
+- [x] Key analysis details recorded ([Results.md](./Results.md))
 - [x] Analysis components set to deterministic ([set_seed](../Scripts/core/constants.py))
 - [x] Entire analysis reproducible with a single command ([run_pipeline.py](../Runners/run_pipeline.py))
 - [x] Entire workflow can be run with a single command ([oneclick.py](../Runners/oneclick.py))

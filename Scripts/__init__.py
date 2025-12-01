@@ -4,3 +4,4 @@ from .dataset import *
 from .unet_model import *
 from .train import *
 from .predict import *
+from .feature_extraction import *

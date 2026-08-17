@@ -215,4 +215,4 @@ and inclusive environment.
 
 ## License
 
-AngioNet is licensed under the [BSD 2-Clause License](LICENSE).
+This project is provided for educational and research purposes. See [LICENSE](LICENSE) for details.

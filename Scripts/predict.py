@@ -1,6 +1,5 @@
 import os
 
-import numpy as np
 from skimage import io
 from torch.utils.data import DataLoader
 

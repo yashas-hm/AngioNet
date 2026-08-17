@@ -1,6 +1,9 @@
 # AngioNet
 A deep learning pipeline for mouse retinal vessel segmentation using U-Net architecture.
 
+<img width="967" height="989" alt="Node Tree" src="https://github.com/user-attachments/assets/5f4fcf1e-a42c-44da-8b1d-4001788ac60c" />
+
+
 ## Requirements
 
 - **Python**: 3.10+ (developed with Python 3.14)
@@ -64,7 +67,7 @@ python Scripts/feature_extraction/feature_extraction.py  # Extract features
 
 To reproduce results without training, download the pre-computed outputs:
 
-**[Download Pre-computed Outputs](https://github.com/yashas-hm-unc/AngioNet/releases/download/v1.0.0/precomputed_outputs.zip)**
+**[Download Pre-computed Outputs](https://github.com/yashas-hm/AngioNet/releases/download/v1.0.0/precomputed_outputs.zip)**
 
 The zip contains:
 
@@ -182,6 +185,33 @@ Output (1, 512, 512)
 - **Dice Score**: ~0.936 on validation set
 - **Pixel Accuracy**: ~91.85%
 - **Training Time**: ~2-5 minutes on GPU (L100)
+
+## Contributing
+
+We welcome contributions from the community! To contribute:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Submit a pull request with a detailed description of changes.
+
+Please adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) when interacting with the project.
+
+---
+
+## Security
+
+If you discover any security vulnerabilities, please report them
+via [yashashm.dev@gmail.com](mailto:yashashm.dev@gmail.com). We take security issues seriously and appreciate your
+efforts to responsibly disclose them. Read more at [SECURITY](SECURITY.md)
+
+---
+
+## Code of Conduct
+
+This project is governed by a [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you agree to uphold a welcoming
+and inclusive environment.
+
+---
 
 ## License
 
